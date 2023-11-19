@@ -46,6 +46,10 @@ components:
         properties: {height: 125}
         type: Image
         layout_properties: {grid_position: 'YTHODV,OVPYHB'}
+      - name: title_2
+        properties: {align: center}
+        type: RichText
+        layout_properties: {grid_position: 'UVJWRV,DHRPZI'}
     - name: Book_3
       properties: {role: outlined-card, visible: false}
       type: ColumnPanel
@@ -55,33 +59,49 @@ components:
         properties: {height: 125}
         type: Image
         layout_properties: {grid_position: 'OCPVDA,UMMHVH'}
+      - name: title_3
+        properties: {align: center}
+        type: RichText
+        layout_properties: {grid_position: 'QVIZKX,ZFUVQM'}
     - name: Book_4
       properties: {role: outlined-card, visible: false}
       type: ColumnPanel
-      layout_properties: {x: 70, y: 400, width: 200}
+      layout_properties: {x: 70, y: 480, width: 200}
       components:
       - name: image_4
         properties: {height: 125, visible: true}
         type: Image
         layout_properties: {grid_position: 'TKCDYL,RJLMQJ'}
+      - name: title_4
+        properties: {align: center}
+        type: RichText
+        layout_properties: {grid_position: 'WRPSMX,LNLZCC'}
     - name: Book_5
       properties: {role: outlined-card, visible: false}
       type: ColumnPanel
-      layout_properties: {x: 286, y: 400, width: 200}
+      layout_properties: {x: 286, y: 480, width: 200}
       components:
       - name: image_5
         properties: {height: 125}
         type: Image
         layout_properties: {grid_position: 'EEDIOC,SIQIHP'}
+      - name: title_5
+        properties: {align: center}
+        type: RichText
+        layout_properties: {grid_position: 'XTOAPV,TORYGE'}
     - name: Book_6
       properties: {role: outlined-card, visible: false}
       type: ColumnPanel
-      layout_properties: {x: 502, y: 400, width: 200}
+      layout_properties: {x: 502, y: 480, width: 200}
       components:
       - name: image_6
         properties: {height: 125}
         type: Image
         layout_properties: {grid_position: 'UJLCFX,AMMJTX'}
+      - name: title_6
+        properties: {align: center}
+        type: RichText
+        layout_properties: {grid_position: 'IJHMDF,XSSMCM'}
     - name: Book_1
       properties: {role: outlined-card, visible: false}
       type: ColumnPanel
@@ -91,6 +111,10 @@ components:
         properties: {height: 125}
         type: Image
         layout_properties: {grid_position: 'WBXTIA,UEBSVI'}
+      - name: title_1
+        properties: {align: center}
+        type: RichText
+        layout_properties: {grid_position: 'CWMGIR,MSCEYN'}
     - name: Title
       properties: {text: Book recommendation system, align: center, bold: true}
       type: Label
