@@ -7,7 +7,56 @@ components:
   properties: {col_widths: '{}'}
   name: content_panel
   layout_properties: {slot: default}
-  components: []
+  components:
+  - name: xy_panel_2
+    properties: {height: 417, width: 816}
+    type: XYPanel
+    layout_properties: {grid_position: 'ZTGSGQ,EHALGB'}
+    components:
+    - name: Title
+      properties: {text: Book recommendation system, align: center, bold: true}
+      type: Label
+      layout_properties: {x: 0, y: 19.28750305250287, width: 750}
+    - name: outlined_card_1
+      properties: {role: outlined-card, col_spacing: medium, background: 'theme:Primary
+          Container'}
+      type: ColumnPanel
+      layout_properties: {x: 27, y: 65.2874984741211, width: 698}
+      components:
+      - name: xy_panel_1_copy_1
+        properties: {height: 14}
+        type: XYPanel
+        layout_properties: {grid_position: 'XUXYSY,BTDGTL'}
+        components:
+        - name: Name
+          properties: {text: '', placeholder: '', visible: true, role: outlined, background: 'theme:On
+              Primary', border: 0px}
+          type: TextBox
+          layout_properties: {x: 0, y: 0, width: 586}
+          event_bindings: {pressed_enter: Name_pressed_enter}
+        - name: button_1_copy_1
+          properties: {text: '', icon: 'fa:search', icon_align: top, background: 'theme:On
+              Primary', border: '', role: tonal-button, visible: true}
+          type: Button
+          layout_properties: {x: 596, y: 0, width: 63.4}
+    - name: grid_panel_1
+      properties: {}
+      type: GridPanel
+      layout_properties: {x: 68.225033570081, y: 169.67500000074506, width: 568.85}
+      components:
+      - name: outlined_card_2_copy_1_copy_1_copy_1_copy_1
+        properties: {role: outlined-card}
+        type: ColumnPanel
+        layout_properties: {row: XRABKB, width_xs: 4, col_xs: 0}
+      - name: outlined_card_2_copy_1_copy_1_copy_1
+        properties: {role: outlined-card}
+        type: ColumnPanel
+        layout_properties: {row: XDVMET, width_xs: 4, col_xs: 0}
+      - name: outlined_card_2_copy_1
+        properties: {role: outlined-card}
+        type: ColumnPanel
+        layout_properties: {row: ZISMEZ, width_xs: 4, col_xs: 0}
+        components: []
 - type: FlowPanel
   properties: {}
   name: navbar_links
