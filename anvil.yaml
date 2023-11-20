@@ -3,11 +3,12 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
-package_name: M3_App_1
+package_name: Book_Recommendation_System
 allow_embedding: false
-name: M3 App 1
+name: Book Recommendation System
 runtime_options: {version: 2, client_version: '3', server_version: python3-sandbox,
   server_spec: null}
+metadata: {title: Book Recommendation System, logo_img: 'https://classroomclipart.com/image/static7/preview2/one-open-book-with-plant-design-elements-55799.jpg'}
 startup_form: Form1
 uplink_visible: true
 renamed: true
