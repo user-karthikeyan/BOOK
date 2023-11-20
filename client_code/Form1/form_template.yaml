@@ -115,11 +115,11 @@ components:
         properties: {align: center}
         type: RichText
         layout_properties: {grid_position: 'CWMGIR,MSCEYN'}
-    - name: Title
-      properties: {text: Book recommendation system, align: center, bold: true}
-      type: Label
-      layout_properties: {x: 14.55000763013959, y: 5.649998474866152, width: 730}
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
+- name: Title
+  properties: {text: Book recommendation system, align: center, bold: true}
+  type: Label
+  layout_properties: {slot: title}
